@@ -1,0 +1,16 @@
+You can call objects from a list: list[bla]()
+
+Do this to turn an object into a dictionary for easy json saving:
+
+steveDict = (steve.__dict__)
+
+print(steveDict["icolor"])
+
+You can call a thing-y before it's defined.
+
+
+
+
+-Combat UI needs more formatting
+
+

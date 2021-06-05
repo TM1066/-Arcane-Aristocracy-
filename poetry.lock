@@ -1,0 +1,28 @@
+[[package]]
+category = "main"
+description = "Easy terminal colors, with chainable methods.\n"
+name = "colr"
+optional = false
+python-versions = "*"
+version = "0.9.1"
+
+[[package]]
+category = "main"
+description = "Does single char input, like C getch/getche"
+name = "getch"
+optional = false
+python-versions = "*"
+version = "1.0"
+
+[metadata]
+content-hash = "e4c4f10ddccf411059b947ebd5fd3d2d81f9062700b1cb2bfc93e4b49e242e5f"
+python-versions = "^3.8"
+
+[metadata.files]
+colr = [
+    {file = "Colr-0.9.1.tar.gz", hash = "sha256:8c15437eeb2ec8821c6df24b62946dfc6b79f69a1d84c1a6c131945a5ff4623c"},
+]
+getch = [
+    {file = "getch-1.0-python2.tar.gz", hash = "sha256:be451438f7a2b389f96753aea39b6ed2540a390f1b9a12badcbc110cf9a5ce7f"},
+    {file = "getch-1.0.tar.gz", hash = "sha256:a6c22717c10051ce65b8fb7bddb171af705b1175e694a73be956990f6089d8b1"},
+]
